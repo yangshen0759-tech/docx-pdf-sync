@@ -1,0 +1,4 @@
+interface:
+  display_name: "DOCX PDF 同步"
+  short_description: "每次 DOCX 修改后，覆盖生成同名的图像型 PDF。"
+  default_prompt: "修改任何 .docx 文件后立即使用 $docx-pdf-sync：先用 Microsoft Word COM 导出，失败时回退到 WPS Writer COM；随后将 PDF 转成图像型 PDF，最后原子覆盖同名 PDF，并报告完整流程。"
