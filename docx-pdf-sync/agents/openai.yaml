@@ -1,0 +1,4 @@
+interface:
+  display_name: "docx-pdf-sync"
+  short_description: "Generate or overwrite a same-name image-only PDF after each DOCX modification."
+  default_prompt: "After modifying any .docx file, immediately use $docx-pdf-sync: export with Microsoft Word COM first, fall back to WPS Writer COM if needed, convert the result into an image-only PDF, atomically replace the same-name PDF, and report the full process."
